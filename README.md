@@ -1,4 +1,4 @@
-# 🏠 NestVision v2 — Knowledge Distillation for Indoor Obstacle Detection
+# 🏠 NestVision — Indoor Obstacle Detection model with Knowledge Distillation
 
 > YOLOv8L (Teacher) → YOLOv8N (Student) using **CrossKD** (CVPR 2024)  
 > Dataset: [`aulias-workspace/indoor-obstacle`](https://universe.roboflow.com/aulias-workspace/indoor-obstacle) on Roboflow
