@@ -203,6 +203,6 @@ Image ──┬──► Teacher (YOLOv8L)
 | Paper | Venue | Role in NestVision v2 |
 |---|---|---|
 | Wang et al., *CrossKD: Cross-Head Knowledge Distillation for Object Detection* | CVPR 2024 | Main distillation method |
-| Cao et al., *PKD: General Distillation Framework via Pearson Correlation* | NeurIPS 2022 | Neck feature loss |
-| Zheng et al., *Localization Distillation for Dense Object Detection* | CVPR 2022 | Box regression KD |
-| Hinton et al., *Distilling the Knowledge in a Neural Network* | arXiv 2015 | Temperature softening |
+
+## Teacher Model link: https://drive.google.com/drive/folders/1xkxtZWwoLNFKjCGqFJmmQxtMSX-5FTj-?usp=sharing
+Teacher model was trained in 50 epoch while student was trained in 40 epochs. Both were recorded in file student-train-stats and teacher-trained-stats
