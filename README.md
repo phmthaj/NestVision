@@ -69,10 +69,6 @@ NestVision_v2/
 ├── weights/                 # Saved checkpoints (auto-created)
 │   ├── teacher_best.pt
 │   └── student_best.pt
-│
-└── results/                 # Benchmark JSON (auto-created)
-    └── benchmark.json
-```
 
 ---
 
