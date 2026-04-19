@@ -1,0 +1,15 @@
+# PyTorch framework
+torch>=2.0.0
+torchvision>=0.15.0
+
+# Computer Vision & Object Detection
+ultralytics>=8.1.0
+opencv-python
+numpy
+Pillow
+
+# Dataset Management
+roboflow
+
+# Web UI Dashboard
+gradio
