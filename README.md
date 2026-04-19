@@ -5,18 +5,6 @@
 
 ---
 
-## What changed vs NestVision v1
-
-| | v1 | **v2** |
-|---|---|---|
-| Dataset | HomeObjects-3K | **Roboflow indoor-obstacle** |
-| Feature KD | MSE loss on L2-normalized maps | **PKD Pearson correlation loss** (NeurIPS 2022) |
-| Response KD | KL-div on raw head logits | **CrossKD** cross-head predictions (CVPR 2024) |
-| Localization | ✗ | **Localization distillation** on DFL distributions (CVPR 2022) |
-| Temperature | shared for all losses | per-component tunable |
-
----
-
 ## Distillation Method — CrossKD (CVPR 2024)
 
 > Wang et al. *"CrossKD: Cross-Head Knowledge Distillation for Object Detection."*  
