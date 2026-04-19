@@ -193,6 +193,32 @@ Image ──┬──► Teacher (YOLOv8L)
 | Format | YOLOv8 |
 
 ---
+### 🚀 Model Performance Comparison
+
+| Metric        | Teacher (YOLOv8L) | Student (YOLOv8n) | Δ (Student - Teacher) |
+|---------------|------------------|-------------------|-----------------------|
+| Precision     | 0.8591           | 0.8502            | -0.0089               |
+| Recall        | 0.7896           | 0.7308            | -0.0588               |
+| mAP@50        | 0.8561           | 0.8184            | -0.0377               |
+| mAP@50-95     | 0.6559           | 0.5922            | -0.0637               |
+
+---
+
+### ⚡ Efficiency
+
+| Model   | Params | Size  | Inference Speed |
+|--------|--------|-------|-----------------|
+| Teacher (v8L) | ~43M  | ~100MB+ | Slower |
+| Student (v8n) | ~3M   | ~6MB    | ~2ms/image (T4) |
+
+---
+
+### 🧠 Summary
+
+- Student retains **~90%+ performance** of Teacher
+- Model size reduced by **~14x**
+- Suitable for **real-time / edge deployment**
+
 
 ## References
 
